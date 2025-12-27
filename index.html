@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aarambh Enterprise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #8e2de2, #4a00e0);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    nav {
+      background: #222;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd1dc;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 25px;
+      background: #fafafa;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #4a00e0;
+    }
+
+    .btn {
+      background: #4a00e0;
+      color: white;
+      padding: 12px 22px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #8e2de2;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Aarambh Enterprise</h1>
+    <p>
+      Household • Kitchenware • Beauty Products • Machines<br>
+      Indian Ethnic Wear • Handmade Products
+    </p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Aarambh Enterprise</h2>
+    <p>
+      Quality aur trust ke saath best reselling products.<br>
+      Ghar, beauty aur lifestyle ki complete range – ek hi jagah.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      <strong>Aarambh Enterprise</strong> ek professional reselling business hai  
+      jo customers ko reliable, affordable aur quality products provide karta hai.  
+      Hum household items se lekar ethnic wear aur handmade products tak sab kuch offer karte hain.
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>Our Product Categories</h2>
+
+    <div class="categories">
+      <div class="card">
+        <h3>🏠 Household Products</h3>
+        <p>Daily use ke trusted home essentials</p>
+      </div>
+
+      <div class="card">
+        <h3>🍳 Kitchenware</h3>
+        <p>Modern aur useful kitchen items</p>
+      </div>
+
+      <div class="card">
+        <h3>💄 Beauty Products & Machines</h3>
+        <p>Beauty care ke latest products</p>
+      </div>
+
+      <div class="card">
+        <h3>👗 Indian Ethnic Wear</h3>
+        <p>Traditional & trendy ethnic collection</p>
+      </div>
+
+      <div class="card">
+        <h3>🎨 Handmade Products</h3>
+        <p>Handcrafted items with Indian touch</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Order ya enquiry ke liye WhatsApp karein</p>
+
+    <button class="btn"
+      onclick="window.location.href='https://wa.me/91XXXXXXXXXX'">
+      WhatsApp Now
+    </button>
+
+    <p style="margin-top:15px;">
+      📧 Email: aarambhenterprise@email.com
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Aarambh Enterprise | All Rights Reserved
+  </footer>
+
+</body>
+</html>
