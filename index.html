@@ -162,11 +162,25 @@
     <p>Order ya enquiry ke liye WhatsApp karein</p>
 
     <p style="margin-top:15px;">
-  <button class="btn"
+  <button class="whatsapp-btn"
 onclick="window.location.href='https://wa.me/917574923576'">
   WhatsApp Now
 </button>
 </p>
+  .whatsapp-btn {
+  background-color: #25D366;   /* WhatsApp green */
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;   /* dark green on hover */
+}
      <p class="social-line" style="margin-top:15px;">
   <img 
     <img
@@ -203,8 +217,22 @@ onclick="window.location.href='https://wa.me/917574923576'">
         alt="WhatsApp"
         style="width:28px;height:28px;">
 </a>
+ <style>
+.whatsapp-btn {
+  background-color: #25D366;
+  color: #ffffff;
+  padding: 14px 24px;   /* FIXED */
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
 
-<style>
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
 .whatsapp-float {
     position: fixed;
     width: 55px;
@@ -213,7 +241,8 @@ onclick="window.location.href='https://wa.me/917574923576'">
     right: 20px;
     background-color: #25D366;
     color: #fff;
-    border-radius: 50%;
+    border-radius: 999px;
+    padding: 16px;
     text-align: center;
     font-size: 30px;
     line-height: 55px;
